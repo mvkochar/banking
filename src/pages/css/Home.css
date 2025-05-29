@@ -1,0 +1,119 @@
+.home-main {
+    margin-top: 53px;
+    margin-left: 162px;
+    padding-top: 56.55px;
+    padding-bottom: 17.37px;
+    gap: 120px;
+
+    >div:nth-child(1) {
+        margin-top: 34.34px;
+    }
+}
+
+.home-main-above {
+    width: 357px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 42px;
+    background: var(--grey-15) url("/images/above-bg.png") no-repeat 12px;
+    border-radius: 61px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.home-main-title {
+    max-width: 826px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 150%;
+    color: var(--white);
+
+    span {
+        color: var(--green-60);
+    }
+}
+
+.home-main-desc {
+    max-width: 826px;
+    margin-top: 14px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white-90);
+}
+
+.home-main-open {
+    display: block;
+    width: 183px;
+    margin-top: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: var(--green-60);
+    border-radius: 82px;
+    font-size: 18px;
+    text-align: center;
+    color: var(--grey-11);
+}
+
+.home-products {
+    margin-top: 74.26px;
+    margin-left: 162px;
+    margin-right: 162px;
+
+    .page-bl-desc {
+        width: 910px;
+        margin-top: 14px;
+    }
+}
+
+.home-products-tabs {
+    align-self: flex-end;
+
+    .tab-btn {
+        width: fit-content;
+        height: fit-content;
+        padding: 14px 24px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        color: var(--white);
+    }
+
+    .tab-btn__active {
+        background-color: var(--green-60);
+        border-radius: 140px;
+        color: var(--grey-11);
+    }
+}
+
+.home-products-box {
+    margin-top: 100px;
+
+    .divider {
+        width: 1px;
+        height: 319px;
+        background-color: var(--grey-15);
+    }
+}
+
+.home-products-item {
+    width: 465.33px;
+    text-align: center;
+
+    .products-item-title {
+        margin-top: 30px;
+        font-size: 24px;
+        line-height: 150%;
+        color: var(--white);
+    }
+
+    .page-bl-desc {
+        width: 465.33px;
+        margin-top: 20px;
+    }
+}
+
