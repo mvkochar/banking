@@ -1,0 +1,17 @@
+.cases_item {
+    width: 314px;
+    height: 222px;
+    padding-top: 30px;
+    background-color: var(--grey-10);
+    border: 1px solid var(--grey-15);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.cases_item_title {
+    width: 254px;
+    margin: 24px auto 0;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--white);
+}
