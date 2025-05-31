@@ -145,7 +145,7 @@
         margin-top: 14px;
     }
 
-     .cases-bl-more {
+    .cases-bl-more {
         display: block;
         width: 148px;
         margin-top: 62px;
@@ -184,7 +184,7 @@
         }
 
         .page-bl-desc {
-              width: 182.67px;
+            width: 182.67px;
         }
     }
 }
@@ -320,4 +320,102 @@
     font-size: 18px;
     text-align: left;
     color: var(--white);
+}
+
+.home-testimonials {
+    margin-top: 150px;
+    margin-left: 162px;
+    margin-right: 162px;
+
+    .page-bl-desc {
+        width: 910px;
+        margin-top: 14px;
+    }
+}
+
+.home-testimonials-tabs {
+    width: 386px;
+    padding: 14px;
+    background-color: var(--grey-11);
+    border: 1px solid var(--grey-15);
+    border-radius: 82px;
+    align-self: flex-end;
+
+    .tab-btn {
+        display: block;
+        width: fit-content;
+        padding: 14px 24px;
+        background-color: transparent;
+        border: none;
+        border-radius: 140px;
+        cursor: pointer;
+        font-size: 18px;
+        color: var(--white);
+    }
+
+    .tab-btn__active {
+        background-color: var(--green-60);
+        color: var(--grey-11);
+    }
+}
+
+.home-testimonials-content {
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.home-testimonials-box {
+    gap: 80px;
+}
+
+.home-testimonials-item {
+    display: flex;
+    width: 404px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    .testimonials-item-desc {
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--white);
+    }
+
+    .testimonials-item-name {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--green-60);
+    }
+}
+
+.home-cta {
+    margin-top: 150px;
+    margin-left: 162px;
+    margin-right: 162px;
+    padding: 80px;
+    background: url("/public/images/home-cta-bg.png") no-repeat;
+    background-blend-mode: normal, screen, normal;
+    background-size: 200%;
+
+    .page-bl-title {
+        font-size: 40px;
+    }
+
+    .page-bl-desc {
+        width: 1103px;
+        margin-top: 14px;
+    }
+}
+
+.home-cta-open {
+    display: block;
+    width: 183px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: var(--green-60);
+    border-radius: 82px;
+    font-size: 18px;
+    text-align: center;
+    color: var(--grey-11);
 }
