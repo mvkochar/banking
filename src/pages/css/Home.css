@@ -390,9 +390,7 @@
 }
 
 .home-cta {
-    margin-top: 150px;
-    margin-left: 162px;
-    margin-right: 162px;
+    margin: 150px 162px;
     padding: 80px;
     background: url("/public/images/home-cta-bg.png") no-repeat;
     background-blend-mode: normal, screen, normal;
