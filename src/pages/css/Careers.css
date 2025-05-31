@@ -1,0 +1,43 @@
+.careers-main {
+    height: 766px;
+    margin-top: 53px;
+    margin-left: 159px;
+    margin-right: 162px;
+    background: url("/public/images/careers-main-bg.png") no-repeat right;
+    position: relative;
+}
+
+.careers-main-inner {
+    width: 100%;
+    height: 595px;
+    background-color: var(--grey-11);
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.careers-main-info {
+    width: 791px;
+    padding: 80px;
+    background-color: var(--grey-10);
+    border-radius: 20px 0px 80px 20px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    .page-bl-desc {
+        margin-top: 23px;
+    }
+}
+
+.home-values {
+    margin-top: 200px;
+    margin-left: 162px;
+
+    .page-bl-desc {
+        max-width: 1296px;
+        margin-top: 14px;
+    }
+}
