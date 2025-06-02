@@ -38,7 +38,7 @@ a {
 body {
   width: 1920px;
   margin: 0 auto;
-  background: var(--grey-10) url("/public/images/abstract-bg.png") no-repeat;
+  background: var(--grey-10) url("/images/abstract-bg.png") no-repeat;
   background-position-x: 10%;
   font-family: "Lexend", sans-serif;
 }

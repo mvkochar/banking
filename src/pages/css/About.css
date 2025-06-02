@@ -1,0 +1,141 @@
+.about-main {
+    margin-top: 53px;
+    margin-left: 159px;
+    margin-right: 162px;
+    padding: 50px;
+    background: var(--grey-11) url("images/about-main-bg.png") no-repeat right;
+    background-position-y: 0;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.about-main-info {
+    width: 791px;
+    padding: 80px;
+    background-color: var(--grey-10);
+    border-radius: 20px 0px 80px 20px;
+
+    .page-bl-desc {
+        width: 631px;
+        margin-top: 23px;
+    }
+
+    position: absolute;
+    z-index: 1;
+}
+
+.about-main-above {
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.about-main-img {
+    margin-left: auto;
+}
+
+.about-info {
+    margin-top: 150px;
+    margin-left: 162px;
+    margin-right: 162px;
+
+    .page-bl-desc {
+        max-width: 1296px;
+        margin-top: 14px;
+    }
+}
+
+.about-info-content {
+    margin-top: 80px;
+}
+
+.about-info-bl {
+    .info-bl-title {
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 150%;
+        color: var(--white);
+    }
+
+    .page-bl-desc {
+        max-width: 882px;
+        margin-top: 14px;
+    }
+}
+
+.about-info-bl:nth-child(1) {
+    .info-bl-text {
+        padding-left: 50px;
+        border-left: 1px solid var(--green-60);
+    }
+}
+
+.about-info-bl:nth-child(2) {
+    margin-top: -100px;
+
+    .info-bl-text {
+        padding-right: 50px;
+        border-right: 1px solid var(--green-60);
+    }
+}
+
+.about-press {
+    margin: 150px 162px;
+
+    .page-bl-desc {
+        margin-top: 14px;
+    }
+}
+
+.about-press-box {
+    margin-top: 80px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.about-press-card {
+    width: 783px;
+    height: 798px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--grey-11);
+    border: 1px solid var(--grey-15);
+    border-radius: 40px 40px 16px 16px;
+
+    .press-card-title {
+        margin-top: 51px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 24px;
+        line-height: 150%;
+        color: var(--white);
+    }
+
+    .press-card-meta {
+        margin-top: 20px;
+        margin-left: 30px;
+        gap: 10px;
+
+        .card-meta-bl {
+            width: fit-content;
+            height: fit-content;
+            padding: 8px 16px;
+            background-color: var(--grey-10);
+            border: 1px solid var(--grey-15);
+            font-weight: 300;
+            font-size: 18px;
+            color: var(--grey-70);
+        }
+    }
+
+    .page-bl-desc {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 189px;
+    }
+
+}

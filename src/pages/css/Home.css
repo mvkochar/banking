@@ -392,7 +392,7 @@
 .home-cta {
     margin: 150px 162px;
     padding: 80px;
-    background: url("/public/images/home-cta-bg.png") no-repeat;
+    background: url("/images/home-cta-bg.png") no-repeat;
     background-blend-mode: normal, screen, normal;
     background-size: 200%;
 
