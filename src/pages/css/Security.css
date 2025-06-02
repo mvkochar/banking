@@ -1,0 +1,81 @@
+.security-main {
+    margin-top: 53px;
+    margin-left: 159px;
+    margin-right: 162px;
+    padding: 50px;
+    background: var(--grey-11) url("images/security-main-bg.png") no-repeat right;
+    background-position-y: 0;
+    border-radius: 20px;
+    position: relative;
+}
+
+.security-main-info {
+    width: 791px;
+    padding: 80px;
+    background-color: var(--grey-10);
+    border-radius: 20px 0px 80px 20px;
+
+    .page-bl-desc {
+        width: 631px;
+        margin-top: 23px;
+    }
+
+    position: absolute;
+    z-index: 1;
+}
+
+.security-main-img {
+    margin-left: auto;
+}
+
+.security-protect {
+    margin-top: 150px;
+    margin-left: 157px;
+    margin-right: 157px;
+
+    .page-bl-desc {
+        max-width: 1306px;
+        margin-top: 14px;
+    }
+}
+
+.security-protect-box {
+    margin-top: 117.56px;
+    padding-top: 82.44px;
+    padding-left: 93px;
+    padding-right: 94px;
+    background: url("/images/security-protect-box-bg.png") no-repeat;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.security-protect-card {
+    width: 688px;
+    height: 330px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(106.06deg, rgba(202, 255, 51, 0.05) -29.45%, rgba(202, 255, 51, 0) 27.86%), linear-gradient(267.5deg, #1C1C1C 40.67%, rgba(28, 28, 28, 0) 99.81%), url(asfalt-light.png);
+    background-blend-mode: normal, normal, screen;
+    border: 1px solid var(--grey-15);
+    border-radius: 20px;
+
+    .protect-card-heading {
+        gap: 20px;
+    }
+
+    .protect-card-title {
+        font-weight: 400;
+        font-size: 24px;
+        color: var(--white);
+    }
+
+    .page-bl-desc {
+        margin-top: 24px;
+    } 
+}
+
+.security-faq {
+    margin-bottom: 150px;
+}
