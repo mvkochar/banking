@@ -14,8 +14,8 @@ const Header = () => {
             </ul>
         </nav>
         <div className="header-actions d-f">
-            <button className='header-actions-sign'>Sign Up</button>
-            <button className='header-actions-login'>Login</button>
+            <a href='' className='header-actions-sign'>Sign Up</a>
+            <Link to='/login' className='header-actions-login'>Login</Link>
         </div>
     </header>
   )

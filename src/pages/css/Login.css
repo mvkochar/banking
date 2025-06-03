@@ -1,0 +1,127 @@
+.login-main {
+    margin-top: 53px;
+    margin-left: 297px;
+    margin-right: 297px;
+    padding: 100px 150px;
+    background: url("/images/login-main-bg.png") no-repeat;
+
+    .page-bl-desc {
+        margin-top: 20px;
+        text-align: center;
+        color: var(--grey-75);
+    }
+}
+
+.login-main-fm {
+    margin-top: 80px;
+
+    .input-bl {
+        width: fit-content;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    input,
+    .input-wr {
+        width: 498px;
+        background-color: var(--grey-10);
+        border: 1px solid var(--grey-15);
+        border-radius: 88px;
+    }
+
+    input {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        outline: none;
+        font-weight: 300;
+        font-size: 18px;
+        color: var(--grey-35);
+
+        &::placeholder {
+            color: var(--grey-35);
+        }
+    }
+
+    .input-wr {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 9.5px;
+
+        input {
+            display: block;
+            width: 70%;
+            border: none;
+        }
+    }
+
+    .forgot-link {
+        display: block;
+        margin-top: 40px;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        text-decoration: underline;
+        color: var(--white);
+    }
+
+    .login-btn,
+    .sign-link {
+        display: block;
+        width: 518px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        border: none;
+        border-radius: 63px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .login-btn {
+        margin: 40px auto 0;
+        background-color: var(--green-60);
+        color: var(--grey-15);
+    }
+
+    .sign-link {
+        margin: 24px auto 0;
+        background-color: var(--grey-20);
+        border: 1px solid var(--grey-15);
+        text-align: center;
+        color: var(--white);
+    }
+}
+
+.login-main-social {
+    margin-top: 24px;
+
+    .social-title {
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--grey-70);
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        &:after,
+        &::before {
+            content: "";
+            display: block;
+            width: 165.5px;
+            height: 0px;
+            border: 1px solid var(--grey-70);
+        }
+    }
+
+    .social-box {
+        width: fit-content;
+        margin: 30px auto 0;
+        gap: 24px;
+    }
+}
+
+.login-testimonials {
+    margin-bottom: 150px;
+}

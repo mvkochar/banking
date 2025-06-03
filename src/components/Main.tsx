@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { About, Careers, Home, Security } from "../pages"
+import { About, Careers, Home, Login, Security } from "../pages"
 
 
 const Main = () => {
@@ -20,6 +20,10 @@ const Main = () => {
             <Route
                 path="security"
                 element={<Security/>}
+            />
+            <Route
+                path="login"
+                element={<Login/>}
             />
         </Routes>
     )
