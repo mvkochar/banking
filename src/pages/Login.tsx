@@ -1,6 +1,16 @@
+import React from 'react'
 import './css/Login.css'
 
 const Login = () => {
+    const [showPwd, setShowPwd] = React.useState(false)
+    const handlePwd = () => {
+        setShowPwd((prevState) => {
+            return (
+                !prevState
+            )
+        })
+    }
+
     return (
         <>
             <main className='login-main'>
@@ -14,8 +24,8 @@ const Login = () => {
                             <input type="email" name="loginEmail" placeholder='Enter your Email' />
                         </div>
                         <div className='input-wr'>
-                            <input type="password" name="loginPwd" placeholder='Enter your Password' />
-                            <button type='button' className='btn-clear d-b'>
+                            <input type={showPwd ? "text" : "password"} name="loginPwd" placeholder='Enter your Password' />
+                            <button type='button' className='btn-clear d-b' onClick={handlePwd}>
                                 <img src="/images/eye.png" alt="eye" />
                             </button>
                         </div>
