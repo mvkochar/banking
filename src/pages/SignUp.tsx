@@ -1,8 +1,8 @@
 import React from 'react'
-import './css/Login.css'
+import './css/SignUp.css'
 import { Link } from 'react-router-dom'
 
-const Login = () => {
+const SignUp = () => {
     const [showPwd, setShowPwd] = React.useState(false)
     const handlePwd = () => {
         setShowPwd((prevState) => {
@@ -14,28 +14,35 @@ const Login = () => {
 
     return (
         <>
-            <main className='login-main'>
-                <h1 className="page-bl-title text-center">Login</h1>
+            <main className='signup-main'>
+                <h1 className="page-bl-title text-center">Sign Up</h1>
                 <p className="page-bl-desc">
-                    Welcome back! Please log in to access your account.
+                    Join our community today! Create an account to unlock exclusive features and personalized experiences.
                 </p>
-                <form action="" className="login-main-fm">
+                <form action="" className="signup-main-fm">
                     <div className="input-bl d-f">
                         <div>
-                            <input type="email" name="loginEmail" placeholder='Enter your Email' />
+                            <input type="text" name='signupFName' placeholder='Enter First Name' />
+                        </div>
+                        <div>
+                            <input type="text" name='signupLName' placeholder='Enter Last Name' />
+                        </div>
+                    </div>
+                    <div className="input-bl d-f">
+                        <div>
+                            <input type="email" name="signupEmail" placeholder='Enter your Email' />
                         </div>
                         <div className='input-wr'>
-                            <input type={showPwd ? "text" : "password"} name="loginPwd" placeholder='Enter your Password' />
+                            <input type={showPwd ? "text" : "password"} name="signupPwd" placeholder='Enter your Password' />
                             <button type='button' className='btn-clear d-b' onClick={handlePwd}>
                                 <img src="/images/eye.png" alt="eye" />
                             </button>
                         </div>
                     </div>
-                    <a href="" className="forgot-link">Forgot Password?</a>
-                    <button type="button" className='login-btn'>Login</button>
-                    <Link to="/signup" className="sign-link">Sign Up</Link>
+                    <button type="button" className='signup-btn'>Sign Up</button>
+                    <Link to="/login" className="login-link">Login</Link>
                 </form>
-                <div className="login-main-social">
+                <div className="signup-main-social">
                     <h5 className="social-title">Or Continue with</h5>
                     <div className="social-box d-f">
                         <a href="" className="d-b">
@@ -50,7 +57,7 @@ const Login = () => {
                     </div>
                 </div>
             </main>
-            <section className='home-testimonials login-testimonials'>
+            <section className='home-testimonials signup-testimonials'>
                 <div className="d-f jc-sb">
                     <div>
                         <h2 className="page-bl-title"><span>Our</span> Testimonials</h2>
@@ -115,4 +122,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default SignUp

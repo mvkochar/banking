@@ -236,7 +236,7 @@ const Careers = () => {
             <Faq />
             <section className='home-cta d-f jc-sb align-center'>
                 <div>
-                    <h2 className="page-bl-title"><span>Start your Career withh</span> YourBank today!</h2>
+                    <h2 className="page-bl-title"><span>Start your Career with</span> YourBank today!</h2>
                     <p className="page-bl-desc">
                         Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus pellentesque elit. 
                         Pellentesque eget ut imperdiet nulla penatibus. Nascetur viverra arcu sed amet cursus purus.

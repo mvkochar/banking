@@ -14,7 +14,7 @@ const Header = () => {
             </ul>
         </nav>
         <div className="header-actions d-f">
-            <a href='' className='header-actions-sign'>Sign Up</a>
+            <Link to='/signup' className='header-actions-sign'>Sign Up</Link>
             <Link to='/login' className='header-actions-login'>Login</Link>
         </div>
     </header>
